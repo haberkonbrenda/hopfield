@@ -31,13 +31,13 @@ Instalacion minima:
 # Estructura del repositorio
 
 - tp3_hopfield.py
-  Script principal. Genera plantillas (anillos), entrena W (Hebb o pseudoinversa), degrada imágenes (ruido, arco faltante, desplazamiento), recupera con Hopfield y exporta resultados (CSV, PGM y, si hay matplotlib, PNG).
+    - Script principal. Genera plantillas (anillos), entrena W (Hebb o pseudoinversa), degrada imágenes (ruido, arco faltante, desplazamiento), recupera con Hopfield y exporta resultados (CSV, PGM y, si hay matplotlib, PNG).
 
 - Scripts de resultados (gráficos)
-  • `noise_sweep_plot.py`: lee `out_noise_*`/`results.csv` y genera `noise_vs_accuracy.png` + tabla en consola.
-  • `arc_sweep_plot.py`: lee `out_arc_*`/`results.csv` y genera `arc_vs_accuracy.png`, `arc_vs_center_error.png` + tabla.
-  • `shift_sweep_plot.py`: lee `out_shift_*`/`results.csv` y genera `shift_vs_accuracy.png`, `shift_vs_center_error.png` + tabla.
-  • `hebb_vs_pinv_plot.py`: compara Hebb vs Pseudoinversa a lo largo de ruido; produce `hebb_pinv_accuracy_vs_noise.png`, `hebb_pinv_center_err_vs_noise.png` + tabla.
+  - `noise_sweep_plot.py`: lee `out_noise_*`/`results.csv` y genera `noise_vs_accuracy.png` + tabla en consola.
+  - `arc_sweep_plot.py`: lee `out_arc_*`/`results.csv` y genera `arc_vs_accuracy.png`, `arc_vs_center_error.png` + tabla.
+  - `shift_sweep_plot.py`: lee `out_shift_*`/`results.csv` y genera `shift_vs_accuracy.png`, `shift_vs_center_error.png` + tabla.
+  - `hebb_vs_pinv_plot.py`: compara Hebb vs Pseudoinversa a lo largo de ruido; produce `hebb_pinv_accuracy_vs_noise.png`, `hebb_pinv_center_err_vs_noise.png` + tabla.
 
 ---
 
